@@ -211,5 +211,21 @@
 
   </section>
   <p>Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <!-- JavaScript: Make mouse wheel scroll horizontally instead of vertically -->
+  <script>
+    // Get the timeline section (the horizontal scrolling container)
+    const timeline = document.querySelector('section');
+    
+    // Listen for mouse wheel events on the timeline
+    timeline.addEventListener('wheel', function(event) {
+      // Prevent the normal vertical scrolling
+      event.preventDefault();
+      
+      // Scroll horizontally instead
+      // deltaY is how much the wheel moved up or down
+      timeline.scrollLeft += event.deltaY;
+    });
+  </script>
 </body>
 </html>
