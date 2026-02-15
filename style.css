@@ -5,7 +5,7 @@ body {
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   font-size: 14px;
   background-color: #000000; /* Black background */
-  color: #00ccff; /* Bright cyan-blue text */
+  color: #d97a28; /* Modest dark orange text */
 }
 
 /* Header styling */
@@ -25,7 +25,7 @@ header img {
 header h1 {
   font-size: 32px;
   margin: 20px 0;
-  color: #00ffff; /* Brighter cyan for heading */
+  color: #d97a28; /* Modest dark orange for heading */
 }
 
 header p {
@@ -95,14 +95,14 @@ section > div h2 {
 /* Card title */
 section > div h3 {
   font-size: 20px;
-  color: #66ddff;
+  color: #d97a28;
   margin: 10px 0 15px 0;
 }
 
 /* Card description text */
 section > div p {
   line-height: 1.8;
-  color: #99eeff;
+  color: #d97a28;
 }
 
 /* Footer instruction text */
@@ -110,7 +110,7 @@ body > p {
   text-align: center;
   padding: 20px;
   font-size: 16px;
-  color: #00ffff;
+  color: #d97a28;
   background-color: #111111;
   margin: 0;
 }
