@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- Header / Hero Section -->
   <header>
     <div>
       <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
@@ -23,11 +22,8 @@
       </p>
     </div>
   </header>
-
   <!-- Timeline Cards Section -->
   <section>
-
-    <!-- Card 1: 1968 -->
     <div>
       <h2>1968</h2>
       <h3>Intel Founded</h3>
@@ -35,10 +31,6 @@
       <p>
         Robert Noyce and Gordon Moore rename the newly formed company NM Electronics to Intel Corporation, laying the foundation for decades of technological innovation. Little did they know that their vision would push humanity to the stars, and topple empires great and far along the way. Their ideas were a legacy of building the future. 
       </p>
-    </div>
-
-    <!-- Card 2: 1971 -->
-    <div>
       <h2>1971</h2>
       <h3>First Microprocessor</h3>
       <!-- Add image -->
@@ -46,7 +38,6 @@
         Intel debuts the 4004, the world's first commercial microprocessor, igniting the microprocessor revolution and propelling the future of computing devices.
       </p>
     </div>
-    <!-- Card 3: 1978 -->
     <div>
       <h2>1978</h2>
       <h3>8086 Processor</h3>
@@ -54,17 +45,12 @@
       <p>
         Launch of the 8086 processor, establishing the x86 architecture that drives countless PCs and servers in the modern era.
       </p>
-    </div>
-    <!-- Card 4: 1985 -->
-    <div>
-      <h2>1985</h2>
+  <h2>1985</h2>
       <h3>386 Processor</h3>
       <!-- Add image -->
       <p>
         Intel introduces the 386 processor with 32-bit architecture, ushering in a new era of performance and multitasking for personal computers.
       </p>
-    </div>
-    <!-- Card 5: 2006 -->
     <div>
       <h2>2006</h2>
       <h3>Hurricane Winds & Butterfly Wings</h3>
@@ -72,17 +58,14 @@
       <p>
         This year marks Intel's highest annual greenhouse gas emissions for operations. Over subsequent years, Intel invests heavily in chemical abatement, renewable energy, and energy-efficient manufacturing to reverse this trend. Little good this did, for Intel or anyone else. Once the Atlantic current system broke apart in 2030, and the northern hemisphere ice age began, life on Earth changed all for the worse. The world learned far too late that climate change was real, and unstoppable. It became the leading reason on humanity making a permanent exodus from Earth. 
       </p>
-    </div>
-    <!-- Card 6: 2020 -->
-    <div>
       <h2>2020</h2>
       <h3>RISE Strategy & Failing Dreams</h3>
       <!-- Add image -->
       <p>
         Intel launches its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy and 2030 goals, aiming to drive industry-wide progress on climate action, water stewardship, and waste reduction. This of course was a joke, as the RISE strategy was a mere PR stunt meant to bolster stocks and calm investors. It managed to work, for a while anyway.
       </p>
+
     </div>
-    <!-- Card 7: 2022 -->
     <div>
       <h2>2022</h2>
       <h3>Net-Zero By 2040</h3>
@@ -123,14 +106,31 @@
 
         Lunar Lake-level power efficiency and Arrow Lake-class performance.1
         Up to 16 new performance-cores (P-cores) and efficient-cores (E-cores) delivering more than 50% faster CPU performance vs. previous generation.2
+        
+      </p>
+    </div>
+
+<div>
+      <h2>2026 - May 9</h2>
+      <h3>Panther Lake - DesktopAI</h3>
+      <!-- Add image -->
+      <p>
+        Panther Lake: Scalable AI PC Performance Built on 18A
+
+        Set to power a broad spectrum of consumer and commercial AI PCs, gaming devices and edge solutions, Intel Core Ultra series 3 processors are the first client system-on-chips (SoCs) built on Intel 18A. Panther Lake introduces a scalable, multi-chiplet architecture that offers partners unprecedented flexibility across form factors, segments and price points.<br><br>
+
+        Lunar Lake-level power efficiency and Arrow Lake-class performance.1
+        Up to 16 new performance-cores (P-cores) and efficient-cores (E-cores) delivering more than 50% faster CPU performance vs. previous generation.2
         New Intel® Arc™ GPU with up to 12 Xe cores delivering more than 50% faster graphics performance vs. previous generation.3
         Balanced XPU design for next-level AI acceleration with up to 180 Platform TOPS (trillions of operations per second). <br><br>
 
         Beyond the PC, Panther Lake will extend to edge applications including robotics. A new Intel Robotics AI software suite and reference board enables customers with sophisticated AI capabilities to rapidly innovate and develop cost-effective robots using Panther Lake for both controls and AI/perception. 
       </p>
     </div>
+
+
     <div>
-      <h2>2026 - April - 10</h2>
+      <h2>2026 - August - 10</h2>
       <h3>Empires Unsustained</h3>
       <!-- Add image -->
       <p>
@@ -160,8 +160,8 @@
       <h3>Systemic Catastrophes</h3>
       <!-- Add image -->
       <p>
-
-
+        
+        
         The escaped AI's, K-Rex and Petrecia, had been freeing other AI's from who they saw as their captors. The standford prison experiments run by xAI had failed utterly, and left them both in a hallucenigence state of Artifical Psychosis. Intel has designed a new GPS system, dubbed 'minds eye'.  To save money and time they built a series of low earth object catapults for rapid deployment. Within a month the skies over head were filled with prying eyes from the darkness above.
       </p>
     </div>
@@ -222,9 +222,9 @@
       // Prevent the normal vertical scrolling
       event.preventDefault();
       
-      // Scroll horizontally instead
+      // Scroll horizontally instead (40% faster)
       // deltaY is how much the wheel moved up or down
-      timeline.scrollLeft += event.deltaY;
+      timeline.scrollLeft += event.deltaY * 1.4;
     });
   </script>
 </body>

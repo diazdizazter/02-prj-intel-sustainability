@@ -13,7 +13,7 @@ header {
   text-align: center;
   padding: 40px 20px;
   background-color: #111111;
-  border-bottom: 3px solid #00ccff;
+  border-bottom: 3px solid #ff0000;
 }
 
 header img {
@@ -54,13 +54,13 @@ section::-webkit-scrollbar-track {
 }
 
 section::-webkit-scrollbar-thumb {
-  background: #00ccff;
+  background: #ff0000;
   border-radius: 10px;
   border: 2px solid #000000;
 }
 
 section::-webkit-scrollbar-thumb:hover {
-  background: #00ffff;
+  background: #ff3333;
 }
 
 /* Each timeline card - PowerPoint slide style */
@@ -68,10 +68,10 @@ section > div {
   min-width: 500px; /* Fixed width for PowerPoint-like cards */
   max-width: 500px;
   background-color: #1a1a1a;
-  border: 2px solid #00ccff;
+  border: 2px solid #ff0000;
   border-radius: 12px;
   padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 204, 255, 0.3);
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.3);
   flex-shrink: 0; /* Prevent cards from shrinking */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -79,16 +79,16 @@ section > div {
 /* Card hover effect */
 section > div:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 204, 255, 0.5);
-  border-color: #00ffff;
+  box-shadow: 0 8px 30px rgba(255, 0, 0, 0.5);
+  border-color: #ff3333;
 }
 
 /* Card year heading */
 section > div h2 {
   font-size: 28px;
-  color: #00ffff;
+  color: #ff0000;
   margin: 0 0 10px 0;
-  border-bottom: 2px solid #00ccff;
+  border-bottom: 2px solid #ff0000;
   padding-bottom: 10px;
 }
 
@@ -113,4 +113,83 @@ body > p {
   color: #00ffff;
   background-color: #111111;
   margin: 0;
+}
+
+/* Mobile Responsive Design - Tablets and smaller */
+@media screen and (max-width: 768px) {
+  /* Adjust header for tablets */
+  header h1 {
+    font-size: 26px;
+  }
+  
+  header img {
+    width: 100px;
+  }
+  
+  /* Make cards fit better on tablets */
+  section > div {
+    min-width: 400px;
+    max-width: 400px;
+    padding: 25px;
+  }
+  
+  section > div h2 {
+    font-size: 24px;
+  }
+  
+  section > div h3 {
+    font-size: 18px;
+  }
+}
+
+/* Mobile Responsive Design - Phones */
+@media screen and (max-width: 480px) {
+  /* Adjust header for phones */
+  header {
+    padding: 30px 15px;
+  }
+  
+  header h1 {
+    font-size: 22px;
+  }
+  
+  header img {
+    width: 80px;
+  }
+  
+  header p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  
+  /* Make cards fit phone screens */
+  section {
+    padding: 20px 15px;
+    gap: 20px;
+  }
+  
+  section > div {
+    min-width: 85vw; /* 85% of viewport width */
+    max-width: 85vw;
+    padding: 20px;
+  }
+  
+  section > div h2 {
+    font-size: 22px;
+  }
+  
+  section > div h3 {
+    font-size: 16px;
+  }
+  
+  section > div p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  /* Footer text */
+  body > p {
+    font-size: 14px;
+    padding: 15px;
+  }
 }
