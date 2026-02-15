@@ -38,9 +38,10 @@ header p {
 section {
   display: flex;
   overflow-x: auto; /* Horizontal scroll bar */
-  padding: 40px 20px 100px 20px; /* Extra bottom padding to avoid footer overlap */
+  padding: 40px 20px 130px 20px; /* Extra bottom padding to avoid footer overlap */
   gap: 30px;
   scroll-behavior: smooth;
+  margin-bottom: 20px;
 }
 
 /* Custom scrollbar styling */
